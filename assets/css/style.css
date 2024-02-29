@@ -19,18 +19,15 @@
 body {
     font-family: "Poppins", sans-serif;
     max-width: 500px;
-    min-width: 250px;
     margin-top: 0;
     text-align: center;
     background-image: url(../img/sfondo.png);
-    margin: 0.8em;
     padding: 0.5em;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.6em;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 p, ul, ol, h2 {
     padding: 1em;
@@ -206,4 +203,3 @@ article code {
  .mailto {
     color: #ff00fe;
  }
-
