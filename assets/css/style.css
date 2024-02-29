@@ -1,0 +1,102 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    max-width: 500px;
+    min-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../img/sfondo.png);
+    margin: 0.8em;
+    padding: 0.5em;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+p, ul, ol, h2 {
+    padding: 1em;
+
+}
+
+header {
+    background-image: linear-gradient( #0199bb, #076a87);
+    box-shadow: 0px 3px 8px 0px black;
+    color: white;
+    margin-bottom: 2.5vh;
+    padding: 1.5em 0;
+    font-weight: 600;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+header > a:visited {
+    color: white; 
+}
+header ul {
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    max-width: 250px;
+    margin: 1em 0;
+}
+
+main, aside {
+    background-color: white;
+    box-shadow: 0px 3px 8px 0px black;
+    text-align: start;
+    padding: 0.5em;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 500;
+    padding: 1.3em 0.5em 0.3em;
+    line-height: 1.5em;
+
+}
+.info {
+    color: #a0a1a2;
+}
+article span {
+    color: #b74372;
+    font-weight: 400;
+}
+article code {
+    background-color: #dedfe0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+ iframe {
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+ }
+
+ footer {
+    background-image: linear-gradient(#005566, #214443);
+    color: white;
+    margin-top: 2.5vh;
+ }
+
