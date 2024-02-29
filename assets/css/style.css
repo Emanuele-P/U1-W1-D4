@@ -34,6 +34,10 @@ p, ul, ol, h2 {
     padding: 1em;
 
 }
+a {
+    color: #0ea8cd;
+    font-weight: 500;
+}
 
 header {
     background-image: linear-gradient( #0199bb, #076a87);
@@ -89,14 +93,36 @@ article code {
     border: 1px solid black;
 }
  iframe {
-    height: 100%;
+    width: 100%;
     border-radius: 20px;
-    text-align: center;
+
  }
 
+.art-ref {
+    background-color: #dedfe1;
+    margin: 1em;
+    padding: 1.3em 0 1.3em 1em;
+    border: 1px solid #cccccc;
+    line-height: 0.5em;
+    text-align: left;
+}
+.date {
+    text-align: right;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+}
+
  footer {
-    background-image: linear-gradient(#005566, #214443);
+    background-image: linear-gradient(#005566, #005566, #214443);
     color: white;
     margin-top: 2.5vh;
+    padding: 0 ;
+    font-size: 0.9em;
+    box-shadow: 0px 3px 8px 0px black;
+    padding: 0 1em 2em;
+ }
+ .mailto {
+    color: #ff00fe;
  }
 
